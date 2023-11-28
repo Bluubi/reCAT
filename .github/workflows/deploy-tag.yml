@@ -5,11 +5,10 @@ on:
     branches:
       - main
 jobs:
-  if_merged:
-    if: github.event.pull_request.merged == true
-    runs-on: ubuntu-latest
-    steps:
-      - run: |
-          echo The commit was pushed
+    tag-version:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           repository: 'Bluubi/reCAT'
