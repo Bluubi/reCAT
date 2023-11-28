@@ -1,7 +1,5 @@
-
 :root {
 	/*https://colorhunt.co/palette/161a3031304db6bbc4f0ece5*/
-
 
 	--bg-primary-dark: #161a30;
 	--bg-secondary-dark: #31304d;
@@ -14,6 +12,5 @@
 	margin: 0;
 	box-sizing: border-box;
 
-	font-family: "Open Sans", "SansSerif", Arial, serif;
-
+	font-family: 'Open Sans', 'SansSerif', Arial, serif;
 }
