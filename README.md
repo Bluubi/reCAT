@@ -39,4 +39,29 @@ export default {
 
 2. Prettier
 
+> https://prettier.io/docs/en/install
+
+> Rules
 >
+> > ```
+> > {
+> > "useTabs": true,
+> > "semi": false,
+> > "trailingComma": "es5",
+> > "singleQuote": true,
+> > "quoteProps": "consistent",
+> > "bracketSpacing": true,
+> > "bracketSameLine": true,
+> > "arrowParens": "always",
+> > "htmlWhitespaceSensitivity": "css"
+> > },
+> > ```
+
+3. Testing library:
+
+> https://www.npmjs.com/package/@testing-library/react
+> npm install --save-dev @testing-library/react
+
+
+4. Vitest:
+> https://vitest.dev/guide/
