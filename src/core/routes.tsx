@@ -1,6 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom'
 import App from '../App.tsx'
-import {HomePage} from "../features/home/HomePage.tsx";
+import { HomePage } from '../features/home/HomePage.tsx'
 
 export const Routes = createBrowserRouter([
 	{
@@ -10,9 +10,6 @@ export const Routes = createBrowserRouter([
 				<App />
 			</>
 		),
-		children: [
-			{ path: '/',
-			element: <HomePage />}
-		]
+		children: [{ path: '/', element: <HomePage /> }],
 	},
 ])

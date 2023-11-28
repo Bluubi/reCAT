@@ -1,19 +1,19 @@
-:root {
-	--font: "Merriweather", "Roboto", sans-serif;
 
+:root {
 	/*https://colorhunt.co/palette/161a3031304db6bbc4f0ece5*/
 
-	--bg-primary-dark: #161A30;
-	--bg-secondary-dark: #31304D;
-	--color-grey: #B6BBC4;
-	--color-white: #F0ECE5;
-}
 
+	--bg-primary-dark: #161a30;
+	--bg-secondary-dark: #31304d;
+	--color-grey: #b6bbc4;
+	--color-white: #f0ece5;
+}
 
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 
-	font-family: var(--font);
+	font-family: "Open Sans", "SansSerif", Arial, serif;
+
 }

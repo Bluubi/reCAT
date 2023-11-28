@@ -4,3 +4,7 @@ header {
 	background-color: var(--bg-primary-dark);
 	color: var(--color-white);
 }
+
+.container {
+	padding: 0.5rem;
+}
