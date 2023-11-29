@@ -5,10 +5,12 @@ on:
     branches:
       - main
 jobs:
-    tag-version:
-      runs-on: ubuntu-latest
-      steps:
+  tag-version:
+    runs-on: ubuntu-latest
+    steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           repository: 'Bluubi/reCAT'
+        run:
+          "echo Hello World"
