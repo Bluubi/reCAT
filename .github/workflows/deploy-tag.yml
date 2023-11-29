@@ -12,5 +12,5 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: 'Bluubi/reCAT'
-        run:
-          "echo Hello World"
+      - name: Say hello
+        run: 'echo Hello World'
