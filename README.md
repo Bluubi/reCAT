@@ -62,6 +62,10 @@ export default {
 > https://www.npmjs.com/package/@testing-library/react
 > npm install --save-dev @testing-library/react
 
-
 4. Vitest:
-> https://vitest.dev/guide/
+
+   > https://vitest.dev/guide/
+
+5. React router:
+   > https://reactrouter.com/en/main/start/tutorial
+   > npm install react-router-dom
