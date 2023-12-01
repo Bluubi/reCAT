@@ -1,104 +1,106 @@
 .house {
-    position: absolute;
-    inset: 0;
+	position: absolute;
+	inset: 0;
 
-    background: rgba(0,0,0,0.5);
+	background: rgba(0, 0, 0, 0.5);
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.house::before { }
+.house::before {
+}
 
 .face {
-    width: 150px;
-    height: 150px;
+	width: 150px;
+	height: 150px;
 
-    border-radius: 50%;
+	border-radius: 50%;
 
-    background-color: var(--bg-secondary-dark);
+	background-color: var(--bg-secondary-dark);
 
-    position: relative;
+	position: relative;
 
-    left: 0;
+	left: 0;
 
-    animation: rotate-cat 5s ease-in-out infinite
+	animation: rotate-cat 5s ease-in-out infinite;
 }
 
 .face::after {
-    content: '';
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    border-top: 25px solid var(--bg-secondary-dark);
-    border-left: 25px solid var(--bg-secondary-dark);
-    transform: rotate(82deg) scale(0.9);
-    top: -2px;
-    left: 74px;
+	content: '';
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-top: 25px solid var(--bg-secondary-dark);
+	border-left: 25px solid var(--bg-secondary-dark);
+	transform: rotate(82deg) scale(0.9);
+	top: -2px;
+	left: 74px;
 }
 
 .face::before {
-    content: '';
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    border-top: 25px solid var(--bg-secondary-dark);
-    border-left: 25px solid var(--bg-secondary-dark);
-    transform: rotate(9deg) scale(0.9);
-    top: -2px;
-    left: 5px;
+	content: '';
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-top: 25px solid var(--bg-secondary-dark);
+	border-left: 25px solid var(--bg-secondary-dark);
+	transform: rotate(9deg) scale(0.9);
+	top: -2px;
+	left: 5px;
 }
 
-
 .mouth {
-    width: 30px;
-    height: 30px;
-    background: var(--bg-secondary-dark);
-    position: absolute;
-    top: 55%;
-    left: 40%;
-    border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	background: var(--bg-secondary-dark);
+	position: absolute;
+	top: 55%;
+	left: 40%;
+	border-radius: 50%;
 }
 
 .mouth:after {
-    content: '';
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    border-top: 5px solid var(--bg-secondary-dark);
-    border-right: 5px solid var(--bg-secondary-dark);
-    top: -35px;
-    left: -38px;
-    transform: rotate(312deg) skew(10deg, 10deg)
+	content: '';
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	border-top: 5px solid var(--bg-secondary-dark);
+	border-right: 5px solid var(--bg-secondary-dark);
+	top: -35px;
+	left: -38px;
+	transform: rotate(312deg) skew(10deg, 10deg);
 }
 .mouth:before {
-    content: '';
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    border-top: 5px solid var(--bg-secondary-dark);
-    border-right: 5px solid var(--bg-secondary-dark);
-    top: -85px;
-    left: -38px;
-    transform: rotate(132deg) skew(10deg, 10deg);
+	content: '';
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	border-top: 5px solid var(--bg-secondary-dark);
+	border-right: 5px solid var(--bg-secondary-dark);
+	top: -85px;
+	left: -38px;
+	transform: rotate(132deg) skew(10deg, 10deg);
 }
 
 .loading {
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 1rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1rem;
 
-    color: var(--color-white);
-    position: absolute;
+	color: var(--color-white);
+	position: absolute;
 }
 
-
 @keyframes rotate-cat {
-    0%, 75%, 100% {
-        transform: rotate(-35deg);
-    }
-    25%, 50% {
-        transform: rotate(35deg)
-    }
+	0%,
+	75%,
+	100% {
+		transform: rotate(-35deg);
+	}
+	25%,
+	50% {
+		transform: rotate(35deg);
+	}
 }

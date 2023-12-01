@@ -3,7 +3,7 @@ import { Cat } from '../domain/Cat.tsx'
 import { CardComponent } from '../../../core/shared/card/Card.tsx'
 import { ImageComponent } from './cat-image.component.tsx'
 import { Loader } from '../../../core/shared/loader/Loader.tsx'
-import styles from "../../home/home.module.css";
+import styles from '../../home/home.module.css'
 
 export const CatComponent = () => {
 	const [cat, setCat] = useState<Cat>()
